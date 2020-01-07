@@ -1,0 +1,128 @@
+html {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/cloud3.png") !important;
+}
+
+.layui-footer {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layui-body {
+    position: relative;
+}
+
+.position_fixed {
+    height: 100%;
+    background-color: rgba(0, 0, 0, .1);
+    position: absolute;
+    top:0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+.position_fixed button{
+    margin-bottom: 20px;
+    width: 80px;
+}
+.floor_img{
+    padding-top:60px;
+}
+.posi_radius {
+    padding: 10px 30px;
+    margin-top: 10px;
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+    z-index: 9999;
+}
+
+.posi_radius .clumn_radius {
+    width: 180px;
+    height: 180px;
+    background-color: rgb(75, 139, 221);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clumn_radius_content {
+    display: inline-block;
+    width: 165px;
+    height: 165px;
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.clumn_radius_content .clumn_radius_content1,
+.clumn_radius_content .clumn_radius_content2,
+.clumn_radius_content .clumn_radius_content3,
+.clumn_radius_content .clumn_radius_content4,
+.clumn_radius_content .radius_content_center {
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(75, 139, 221);
+    font-weight: 500;
+    line-height: 42px;
+}
+
+.clumn_radius_content .clumn_radius_content1:hover,
+.clumn_radius_content .clumn_radius_content2:hover,
+.clumn_radius_content .clumn_radius_content3:hover,
+.clumn_radius_content .clumn_radius_content4:hover {
+    font-weight: 600;
+}
+
+.clumn_radius_content .clumn_radius_content1 {
+    position: absolute;
+    top: 0;
+    left: 62px;
+}
+
+.clumn_radius_content .clumn_radius_content2 {
+    position: absolute;
+    right: 0;
+    top: 62px;
+}
+
+.clumn_radius_content .clumn_radius_content3 {
+    position: absolute;
+    bottom: 0;
+    left: 62px;
+}
+
+.clumn_radius_content .clumn_radius_content4 {
+    position: absolute;
+    left: 0;
+    top: 62px;
+}
+
+.clumn_radius_content .radius_content_center {
+    position: absolute;
+    bottom: 62px;
+    left: 61px;
+    top: 62px;
+    right: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clumn_radius_content .radius_content_center img {
+    width: 120%;
+    height: 120%;
+    transform: rotate(180deg);
+}
